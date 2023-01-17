@@ -30,6 +30,8 @@ export function AppFooter() {
                 hi from yarden
                 coffeerights - count: {count}
             </p>
+            <p>wowwwwwwww nice project!
+                </p>
             {cart.length > 0 &&
                 <h5>
                     <span>{cart.length}</span> Products in your Cart
