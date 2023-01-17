@@ -7,6 +7,7 @@ import { removeFromCart, checkout } from '../store/car.actions'
 import { UserMsg } from './user-msg.jsx'
 
 export function AppFooter() {
+    
     const [isCartShown, setIsCartShown] = useState(false)
     const cart = useSelector(storeState => storeState.carModule.cart)
     const count = useSelector(storeState => storeState.userModule.count)
@@ -24,6 +25,8 @@ export function AppFooter() {
     return (
         <footer className="app-footer">
             <p>
+            aviv
+
                 hi from yarden
                 coffeerights - count: {count}
             </p>
