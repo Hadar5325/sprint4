@@ -25,7 +25,7 @@ export function AppFooter() {
     return (
         <footer className="app-footer">
             <p>
-            aviv is the king
+            aviv
 
                 coffeerights - count: {count}
             </p>
