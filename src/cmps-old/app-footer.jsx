@@ -26,6 +26,8 @@ export function AppFooter() {
             <p>
                 coffeerights - count: {count}
             </p>
+            <p>wowwwwwwww nice project!
+                </p>
             {cart.length > 0 &&
                 <h5>
                     <span>{cart.length}</span> Products in your Cart
