@@ -24,6 +24,7 @@ export function AppFooter() {
     return (
         <footer className="app-footer">
             <p>
+                hi from yarden
                 coffeerights - count: {count}
             </p>
             {cart.length > 0 &&
